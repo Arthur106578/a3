@@ -1,2 +1,10 @@
-// 成绩统计工具：全部输出走 Console
-console.log("成绩统计工具已加载，待实现。");
+// script.js
+const scores = [
+  { name: '李四', score: 92 },
+  { name: '王五', score: 45 },
+  { name: '赵六', score: 77 },
+  { name: '孙七', score: 59 },
+  { name: '周八', score: 88 },
+  { name: '吴九', score: 105 },   // 故意混入非法值：满分100
+  { name: '郑十', score: -3 }     // 负分
+];
